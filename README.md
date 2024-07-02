@@ -26,10 +26,13 @@ App.js: Sets up the navigation between HomeScreen and CartScreen.
 screens/HomeScreen.js: Displays products and handles adding items to the cart.
 screens/CartScreen.js: Displays the contents of the cart and handles removal of items.
 components/ProductItem.js: Renders individual product items.
-Screenshots
-Home Screen
+## Screenshots
 
-Cart Screen
+### Home Screen
+![Home Screen](./MyApp/assets/HomeScreen.jpg)
+
+### Cart Screen
+![Cart Screen](/MyApp/assets/CartScreen.jpg)
 
 # Getting Started
 Clone the repository
