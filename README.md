@@ -2,6 +2,15 @@
 # Project Overview
 This React Native project is an e-commerce application named "Open Fashion." The app displays a list of fashion products and allows users to add products to a cart and view the cart's contents.
 
+
+## Screenshots
+
+### Home Screen
+![Home Screen](./MyApp/assets/HomeScreen.jpg)
+
+### Cart Screen
+![Cart Screen](/MyApp/assets/CartScreen.jpg)
+
 # Features
 Home Screen: Displays a list of products with options to add them to the cart.
 Cart Screen: Displays the items added to the cart, with the ability to remove items.
@@ -21,18 +30,7 @@ Data Storage
 Loading Data: On app startup, the cart data is loaded from AsyncStorage and set in the component state using the useEffect hook.
 Updating Data: When a product is added to or removed from the cart, the new cart state is saved to AsyncStorage, ensuring persistent storage.
 
-# File Structure
-App.js: Sets up the navigation between HomeScreen and CartScreen.
-screens/HomeScreen.js: Displays products and handles adding items to the cart.
-screens/CartScreen.js: Displays the contents of the cart and handles removal of items.
-components/ProductItem.js: Renders individual product items.
-## Screenshots
 
-### Home Screen
-![Home Screen](./MyApp/assets/HomeScreen.jpg)
-
-### Cart Screen
-![Cart Screen](/MyApp/assets/CartScreen.jpg)
 
 # Getting Started
 Clone the repository
@@ -46,7 +44,6 @@ Install dependencies
 bash
 Copy code
 npm install
-Run the app
 
 bash
 Copy code

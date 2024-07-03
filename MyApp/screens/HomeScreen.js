@@ -37,6 +37,7 @@ export default function HomeScreen({ navigation }) {
     if (index >= products.length) {
       return null;
     }
+    // rendering the productItem
     if (index % 2 === 0) {
       return (
         <View style={styles.row}>

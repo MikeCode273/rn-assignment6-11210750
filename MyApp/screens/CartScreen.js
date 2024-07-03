@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity, SafeAreaView } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+// run the CartScreen component App
 export default function CartScreen() {
   const [cart, setCart] = useState([]);
 
+  // Using useEffect hook to initialize the local storage variable
   useEffect(() => {
     const loadCart = async () => {
       const storedCart = await AsyncStorage.getItem('cart');
