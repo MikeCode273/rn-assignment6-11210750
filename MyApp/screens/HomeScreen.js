@@ -133,8 +133,8 @@ const styles = StyleSheet.create({
     height: 24,
   },
   logoText: {
-    width: 100,
-    height: 90,
+    width: 250,
+    height: 100,
   },
   searchIcon: {
     width: 24,

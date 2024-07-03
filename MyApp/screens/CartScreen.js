@@ -84,8 +84,8 @@ const styles = StyleSheet.create({
     height: 50,
   },
   logoText: {
-    width: 100,
-    height: 90,
+    width: 250,
+    height: 100,
   },
   logocheck: {
     width: [40],
