@@ -6,13 +6,23 @@ import CartScreen from "./screens/CartScreen";
 
 const Stack = createStackNavigator();
 
-export default function App() {
+function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Cart" component={CartScreen} />
+        <Stack.Screen 
+        name="Home" 
+        component={HomeScreen} 
+        options={{headerShown: false}}
+        />
+        <Stack.Screen 
+        name="Cart" 
+        component={CartScreen} 
+        options={{title: 'Cart'}}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
+
+export default App;
