@@ -33,6 +33,11 @@ Updating Data: When a product is added to or removed from the cart, the new cart
 
 
 # Getting Started
+
+# Set-up git
+```bash
+npm install -g expo-cli
+
 Clone the repository
 
 bash
